@@ -9,7 +9,6 @@ let source = require('vinyl-source-stream');
 let buffer = require('vinyl-buffer');
 let gutil = require('gulp-util');
 let sourcemaps = require('gulp-sourcemaps');
-// let jadeify = require('jadeify');
 let jasmine = require('gulp-jasmine');
 let jasmineSpecReporter = require('jasmine-spec-reporter');
 
@@ -34,8 +33,7 @@ let handleError = function(task) {
 
 let customOpts = {
   entries: ['./js/main.js'],
-  debug: true,
-  // transform: ['jadeify']
+  debug: true
 };
 let opts = Object.assign({}, watchify.args, customOpts);
 let bundler = watchify(browserify(opts)); 
