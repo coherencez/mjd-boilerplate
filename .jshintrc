@@ -1,5 +1,5 @@
 {
-	  "predef": [ "document", "jQuery", "console", "window" ],
+	  "predef": [ "document", "jQuery", "console", "$", "window" ],
 	  "esversion": 6,
 	  "globalstrict": true,
 	  "browserify": true,
