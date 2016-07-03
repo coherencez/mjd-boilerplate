@@ -1,16 +1,15 @@
 {
-	  "predef": [ "document", "jQuery", "console", "$", "window" ],
-	  "esversion": 6,
-	  "globalstrict": true,
-	  "browserify": true,
-    "jquery": true,
-	  "globals": {
-  	"describe": false,
-  	"it": false,
-  	"expect": false,
-  	"before": false,
-  	"beforeEach": false,
-  	"after": false,
-  	"afterEach": false
+      "predef": [ "document", "jQuery", "console", "window" ],
+      "esversion": 6,
+      "globalstrict": true,
+      "browserify": true,
+      "globals": {
+      "describe": false,
+      "it": false,
+      "expect": false,
+      "before": false,
+      "beforeEach": false,
+      "after": false,
+      "afterEach": false
   }
 }
